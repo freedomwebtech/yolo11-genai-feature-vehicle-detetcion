@@ -149,7 +149,7 @@ class VehicleDetectionProcessor:
 
 # Example usage:
 if __name__ == "__main__":
-    video_file = "ind1.mp4"
-    api_key = "AIzaSyDVe39cm6E9jrUkUGxNPq_p542nv-gbqwE"  # Replace with your actual API key
+    video_file = ""
+    api_key = ""  # Replace with your actual API key
     processor = VehicleDetectionProcessor(video_file, api_key)
     processor.start_processing()
